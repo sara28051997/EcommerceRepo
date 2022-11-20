@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-20T09:36:26Z" name="EcommerceSuite" finished-at="2022-11-20T09:36:38Z" duration-ms="12305">
+    <groups>
+    </groups>
+    <test started-at="2022-11-20T09:36:26Z" name="EcommerceTest" finished-at="2022-11-20T09:36:38Z" duration-ms="12305">
+      <class name="TestPackage.FirstTest">
+        <test-method is-config="true" signature="setfilename()[pri:0, instance:TestPackage.FirstTest@58be6e8]" started-at="2022-11-20T09:36:26Z" name="setfilename" finished-at="2022-11-20T09:36:26Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setfilename -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:TestPackage.FirstTest@58be6e8]" started-at="2022-11-20T09:36:27Z" name="openbrowser" finished-at="2022-11-20T09:36:35Z" duration-ms="7502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method signature="testmethod(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.FirstTest@58be6e8]" started-at="2022-11-20T09:36:35Z" name="testmethod" data-provider="exread" finished-at="2022-11-20T09:36:37Z" duration-ms="1692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestPackage.FirstTest@58be6e8]" started-at="2022-11-20T09:36:37Z" name="closebrowser" finished-at="2022-11-20T09:36:38Z" duration-ms="1556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestPackage.FirstTest -->
+    </test> <!-- EcommerceTest -->
+  </suite> <!-- EcommerceSuite -->
+</testng-results>
